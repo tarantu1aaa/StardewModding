@@ -1,0 +1,14 @@
+{
+  "Format": "2.7.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/CropObjects, Mods/{{ModId}}/Crops, Mods/{{ModId}}/CookingObjects",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "changes/crops.json, changes/cooking.json"
+    }
+  ]
+}

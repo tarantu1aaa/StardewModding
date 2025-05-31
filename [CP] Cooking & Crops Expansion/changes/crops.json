@@ -1,0 +1,286 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Lettuce": {
+          "Name": "{{ModId}}_Lettuce",
+          "DisplayName": "Lettuce",
+          "Description": "A garden staple, its crunchy leaves are wonderful in salads and wraps.",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 45,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 0,
+          "Edibility": 15,
+          "ContextTags": ["color_green", "season_spring"]
+        },
+        "{{ModId}}_Tomatillo": {
+          "Name": "{{ModId}}_Tomatillo",
+          "DisplayName": "Tomatillo",
+          "Description": "Within the papery husk is a small green fruit, loved for its tart flavor.",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 35,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 1,
+          "Edibility": 25,
+          "ContextTags": ["color_lime", "season_spring", "season_summer"]
+        },
+        "{{ModId}}_Zucchini": {
+          "Name": "{{ModId}}_Zucchini",
+          "DisplayName": "Zucchini",
+          "Description": "A green squash harvested young and popular in cooking.",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 75,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 2,
+          "Edibility": 30,
+          "ContextTags": ["color_dark_green", "season_summer"]
+        },
+        "{{ModId}}_Twirlpod": {
+          "Name": "{{ModId}}_Twirlpod",
+          "DisplayName": "Twirlpod",
+          "Description": "A peculiar type of bean with a distinctive spiraling pod and surprisingly sweet taste.",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 55,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 3,
+          "Edibility": 20,
+          "ContextTags": ["color_dark_cyan", "season_fall"]
+        },
+        "{{ModId}}_BellPepper": {
+          "Name": "{{ModId}}_BellPepper",
+          "DisplayName": "Bell Pepper",
+          "Description": "A large pepper minus the spice! It has a mild bitter flavor.",
+          "Type": "Basic",
+          "Category": -75,
+          "Price": 50,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 4,
+          "Edibility": 20,
+          "ContextTags": ["color_yellow", "season_fall"]
+        },
+        "{{ModId}}_SweetJojaBerry": {
+          "Name": "{{ModId}}_SweetJojaBerry",
+          "DisplayName": "Sweet Joja Berry",
+          "Description": "Part of a new line of crops created by Joja scientists. It has a sickeningly sweet taste.",
+          "Type": "Basic",
+          "Category": -79,
+          "Price": 1500,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 10,
+          "Edibility": 72,
+          "Buffs": [
+            {
+              "Id": "Nauseated",
+              "BuffId": "25",
+              "Duration": 30
+            }
+          ],
+          "ContextTags": ["color_pink","season_summer", "season_fall"]
+        },
+        "{{ModId}}_CosmicFruit": {
+          "Name": "{{ModId}}_CosmicFruit",
+          "DisplayName": "Cosmic Fruit",
+          "Description": "Joja scientists genetically engineered this fruit in an attempt to replicate the fabled Stardrop.",
+          "Type": "Basic",
+          "Category": -79,
+          "Price": 700,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 11,
+          "Edibility": 48,
+          "Buffs": [
+            {
+              "Id": "Food",
+              "BuffId": null,
+              "Duration": 500,
+              "CustomAttributes": {
+                "LuckLevel": 2.0,
+                "MaxStamina": 34
+              }
+            }
+          ],
+          "ContextTags": ["color_purple", "season_fall", "season_winter"]
+        },
+        "{{ModId}}_LettuceSeeds": {
+          "Name": "{{ModId}}_LettuceSeeds",
+          "DisplayName": "Lettuce Seeds",
+          "Description": "Plant these in the spring. Takes 4 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 30,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 5,
+          "Edibility": -300
+        },
+        "{{ModId}}_TomatilloSeeds": {
+          "Name": "{{ModId}}_TomatilloSeeds",
+          "DisplayName": "Tomatillo Seeds",
+          "Description": "Plant these in the spring or summer. Takes 9 days to mature, and continues to produce after first harvest.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 85,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 6,
+          "Edibility": -300
+        },
+        "{{ModId}}_ZucchiniSeeds": {
+          "Name": "{{ModId}}_Zucchini Seeds",
+          "DisplayName": "Zucchini Seeds",
+          "Description": "Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 60,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 7,
+          "Edibility": -300
+        },
+        "{{ModId}}_TwirlpodStarter": {
+          "Name": "{{ModId}}_TwirlpodStarter",
+          "DisplayName": "Twirlpod Starter",
+          "Description": "Plant these in the fall. Takes 10 days to mature, and continues to produce after first harvest.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 65,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 8,
+          "Edibility": -300
+        },
+        "{{ModId}}_BellPepperSeeds": {
+          "Name": "{{ModId}}_BellPepperSeeds",
+          "DisplayName": "Bell Pepper Seeds",
+          "Description": "Plant these in the fall. Takes 6 days to mature, and continues to produce after first harvest.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 35,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 9,
+          "Edibility": -300
+        },
+        "{{ModId}}_SweetJojaBerrySeeds": {
+          "Name": "{{ModId}}_SweetJojaBerrySeeds",
+          "DisplayName": "Sweet Joja Berry Seeds",
+          "Description": "Plant them. Thrive. Engineered to mature in just 17 days year-round!* *winter excluded.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 999,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 12,
+          "Edibility": -300
+        },
+        "{{ModId}}_CosmicFruitSeeds": {
+          "Name": "{{ModId}}_CosmicFruitSeeds",
+          "DisplayName": "Cosmic Fruit Seeds",
+          "Description": "Plant them. Thrive. Matures in 13 days beneath the glow of the winter star.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 299,
+          "Texture": "Mods/{{ModId}}/CropObjects",
+          "SpriteIndex": 13,
+          "Edibility": -300
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "{{ModId}}_LettuceSeeds": {
+          "Seasons": ["Spring"],
+          "DaysInPhase": [1, 1, 1, 1],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_Lettuce",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 0,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_TomatilloSeeds": {
+          "Seasons": ["Spring", "Summer"],
+          "DaysInPhase": [1, 2, 3, 2, 1],
+          "RegrowDays": 4,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_Tomatillo",
+          "HarvestMinStack": 2,
+          "ExtraHarvestChance": 0.4,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 1,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_ZucchiniSeeds": {
+          "Seasons": ["Summer"],
+          "DaysInPhase": [1, 2, 1, 1],
+          "RegrowDays": 3,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_Zucchini",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0.02,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 2,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_TwirlpodStarter": {
+          "Seasons": ["Fall"],
+          "DaysInPhase": [1, 3, 3, 2, 1],
+          "RegrowDays": 2,
+          "IsRaised": true,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_Twirlpod",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0.52,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 3,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_BellPepperSeeds": {
+          "Seasons": ["Fall"],
+          "DaysInPhase": [1, 1, 2, 1, 1],
+          "RegrowDays": 4,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_BellPepper",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0.04,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 4,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_SweetJojaBerrySeeds": {
+          "Seasons": ["Spring", "Summer", "Fall"],
+          "DaysInPhase": [1, 4, 5, 4, 3],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_SweetJojaBerry",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 5,
+          "CountForMonoculture": true
+        },
+        "{{ModId}}_CosmicFruitSeeds": {
+          "Seasons": ["Winter"],
+          "DaysInPhase": [1, 5, 4, 2, 1],
+          "RegrowDays": -1,
+          "IsRaised": false,
+          "HarvestMethod": "Grab",
+          "HarvestItemId": "{{ModId}}_CosmicFruit",
+          "HarvestMinStack": 1,
+          "ExtraHarvestChance": 0,
+          "Texture": "Mods/{{ModId}}/Crops",
+          "SpriteIndex": 6,
+          "CountForMonoculture": true
+        }
+      }
+    }
+  ]
+}

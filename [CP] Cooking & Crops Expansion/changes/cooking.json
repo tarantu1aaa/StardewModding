@@ -1,0 +1,76 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_LettuceWrap": {
+          "Name": "{{ModId}}_LettuceWrap",
+          "DisplayName": "Lettuce Wrap",
+          "Description": "ADDTHIS",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 250,
+          "Texture": "Mods/{{ModId}}/CookingObjects",
+          "SpriteIndex": 0,
+          "Edibility": 70
+        },
+        "{{ModId}}_GarlicBread": {
+          "Name": "{{ModId}}_GarlicBread",
+          "DisplayName": "Garlic Bread",
+          "Description": "ADDTHIS",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 270,
+          "Texture": "Mods/{{ModId}}/CookingObjects",
+          "SpriteIndex": 1,
+          "Edibility": 60
+        },
+        "{{ModId}}_PinkSmoothie": {
+          "Name": "{{ModId}}_PinkSmoothie",
+          "DisplayName": "Pink Smoothie",
+          "Description": "ADDTHIS",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 380,
+          "Texture": "Mods/{{ModId}}/CookingObjects",
+          "SpriteIndex": 2,
+          "Edibility": 90
+        },
+        "{{ModId}}_TwirlpodSoup": {
+          "Name": "{{ModId}}_TwirlpodSoup",
+          "DisplayName": "Twirlpod Soup",
+          "Description": "ADDTHIS",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 360,
+          "Texture": "Mods/{{ModId}}/CookingObjects",
+          "SpriteIndex": 3,
+          "Edibility": 60
+        },
+        "{{ModId}}_Tiramisu": {
+          "Name": "{{ModId}}_Tiramisu",
+          "DisplayName": "Tiramisu",
+          "Description": "ADDTHIS",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 450,
+          "Texture": "Mods/{{ModId}}/CookingObjects",
+          "SpriteIndex": 4,
+          "Edibility": 70
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "{{ModId}}_LettuceWrap": "{{ModId}}_Lettuce 1 419 1 {{ModId}}_BellPepper 1/1 1/{{ModId}}_LettuceWrap/default",
+        "{{ModId}}_GarlicBread": "216 1 247 1 248 1/1 1/{{ModId}}_GarlicBread/default",
+        "{{ModId}}_PinkSmoothie": "254 1 91 1 400 1/1 1/{{ModId}}_PinkSmoothie/default",
+        "{{ModId}}_TwirlpodSoup": "{{ModId}}_Twirlpod 2 -6 1 282 1/1 1/{{ModId}}_TwirlpodSoup/default",
+        "{{ModId}}_Tiramisu": "-6 1 245 1 246 1 395 1/1 1/{{ModId}}_Tiramisu/default"
+      }
+    }
+  ]
+}
