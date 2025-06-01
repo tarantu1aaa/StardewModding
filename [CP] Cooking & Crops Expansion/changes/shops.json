@@ -36,6 +36,61 @@
           "IsRecipe": true
         }
       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "SeedShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_LettuceSeeds": {
+          "Id": "{{ModId}}_LettuceSeeds",
+          "ItemId": "(O){{ModId}}_LettuceSeeds",
+          "Condition": "SEASON spring"
+        },
+        "{{ModId}}_TomatilloSeeds": {
+          "Id": "{{ModId}}_TomatilloSeeds",
+          "ItemId": "(O){{ModId}}_TomatilloSeeds",
+          "Condition": "SEASON spring summer"
+        },
+        "{{ModId}}_ZucchiniSeeds": {
+          "Id": "{{ModId}}_ZucchiniSeeds",
+          "ItemId": "(O){{ModId}}_ZucchiniSeeds",
+          "Condition": "SEASON summer"
+        },
+        "{{ModId}}_TwirlpodStarter": {
+          "Id": "{{ModId}}_TwirlpodStarter",
+          "ItemId": "(O){{ModId}}_TwirlpodStarter",
+          "Condition": "SEASON fall"
+        },
+        "{{ModId}}_BellPepperSeeds": {
+          "Id": "{{ModId}}_BellPepperSeeds",
+          "ItemId": "(O){{ModId}}_BellPepperSeeds",
+          "Condition": "SEASON fall"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Joja",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_SweetJojaBerrySeeds": {
+          "Id": "{{ModId}}_SweetJojaBerrySeeds",
+          "ItemId": "(O){{ModId}}_SweetJojaBerrySeeds",
+          "Condition": "SEASON spring summer fall"
+        },
+        "{{ModId}}_CosmicFruitSeeds": {
+          "Id": "{{ModId}}_CosmicFruitSeeds",
+          "ItemId": "(O){{ModId}}_CosmicFruitSeeds",
+          "Condition": "SEASON winter"
+        }
+      }
     }
   ]
 }
