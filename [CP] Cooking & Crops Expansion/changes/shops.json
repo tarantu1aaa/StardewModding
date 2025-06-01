@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["Saloon", "Items"],
+      "Entries": {
+        "{{ModId}}_LettuceWraps": {
+          "Id": "{{ModId}}_LettuceWraps (Recipe)",
+          "ItemId": "(O){{ModId}}_LettuceWraps",
+          "Price": 150,
+          "IsRecipe": true
+        },
+        "{{ModId}}_GarlicBread": {
+          "Id": "{{ModId}}_GarlicBread (Recipe)",
+          "ItemId": "(O){{ModId}}_GarlicBread",
+          "Price": 150,
+          "IsRecipe": true
+        },
+        "{{ModId}}_PinkSmoothie": {
+          "Id": "{{ModId}}_PinkSmoothie (Recipe)",
+          "ItemId": "(O){{ModId}}_PinkSmoothie",
+          "Price": 100,
+          "IsRecipe": true
+        },
+        "{{ModId}}_TwirlpodSoup": {
+          "Id": "{{ModId}}_TwirlpodSoup (Recipe)",
+          "ItemId": "(O){{ModId}}_TwirlpodSoup",
+          "Price": 200,
+          "IsRecipe": true
+        },
+        "{{ModId}}_Tiramisu": {
+          "Id": "{{ModId}}_Tiramisu (Recipe)",
+          "ItemId": "(O){{ModId}}_Tiramisu",
+          "Price": 200,
+          "IsRecipe": true
+        }
+      }
+    }
+  ]
+}

@@ -4,10 +4,10 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "{{ModId}}_LettuceWrap": {
-          "Name": "{{ModId}}_LettuceWrap",
-          "DisplayName": "Lettuce Wrap",
-          "Description": "ADDTHIS",
+        "{{ModId}}_LettuceWraps": {
+          "Name": "{{ModId}}_LettuceWraps",
+          "DisplayName": "Lettuce Wraps",
+          "Description": "Crunchy bundles of lettuce stuffed with savory goodness.",
           "Type": "Cooking",
           "Category": -7,
           "Price": 250,
@@ -18,7 +18,7 @@
         "{{ModId}}_GarlicBread": {
           "Name": "{{ModId}}_GarlicBread",
           "DisplayName": "Garlic Bread",
-          "Description": "ADDTHIS",
+          "Description": "Bread slathered in oil and garlicky seasoning. What more could you want?",
           "Type": "Cooking",
           "Category": -7,
           "Price": 270,
@@ -29,7 +29,7 @@
         "{{ModId}}_PinkSmoothie": {
           "Name": "{{ModId}}_PinkSmoothie",
           "DisplayName": "Pink Smoothie",
-          "Description": "ADDTHIS",
+          "Description": "A cold and refreshing taste of summer.",
           "Type": "Cooking",
           "Category": -7,
           "Price": 380,
@@ -40,7 +40,7 @@
         "{{ModId}}_TwirlpodSoup": {
           "Name": "{{ModId}}_TwirlpodSoup",
           "DisplayName": "Twirlpod Soup",
-          "Description": "ADDTHIS",
+          "Description": "A peculiar sweet soup commonly eaten as dessert in autumn.",
           "Type": "Cooking",
           "Category": -7,
           "Price": 360,
@@ -51,7 +51,7 @@
         "{{ModId}}_Tiramisu": {
           "Name": "{{ModId}}_Tiramisu",
           "DisplayName": "Tiramisu",
-          "Description": "ADDTHIS",
+          "Description": "An indulgent dish of cake soaked in coffee and layered with cream.",
           "Type": "Cooking",
           "Category": -7,
           "Price": 450,
@@ -65,11 +65,11 @@
       "Action": "EditData",
       "Target": "Data/CookingRecipes",
       "Entries": {
-        "{{ModId}}_LettuceWrap": "{{ModId}}_Lettuce 1 419 1 {{ModId}}_BellPepper 1/1 1/{{ModId}}_LettuceWrap/default",
-        "{{ModId}}_GarlicBread": "216 1 247 1 248 1/1 1/{{ModId}}_GarlicBread/default",
-        "{{ModId}}_PinkSmoothie": "254 1 91 1 400 1/1 1/{{ModId}}_PinkSmoothie/default",
-        "{{ModId}}_TwirlpodSoup": "{{ModId}}_Twirlpod 2 -6 1 282 1/1 1/{{ModId}}_TwirlpodSoup/default",
-        "{{ModId}}_Tiramisu": "-6 1 245 1 246 1 395 1/1 1/{{ModId}}_Tiramisu/default"
+        "{{ModId}}_LettuceWraps": "{{ModId}}_Lettuce 1 419 1 {{ModId}}_BellPepper 1/1 1/{{ModId}}_LettuceWraps/saloon",
+        "{{ModId}}_GarlicBread": "216 1 247 1 248 1/1 1/{{ModId}}_GarlicBread/saloon",
+        "{{ModId}}_PinkSmoothie": "254 1 91 1 400 1/1 1/{{ModId}}_PinkSmoothie/saloon",
+        "{{ModId}}_TwirlpodSoup": "{{ModId}}_Twirlpod 2 -6 1 282 1/1 1/{{ModId}}_TwirlpodSoup/saloon",
+        "{{ModId}}_Tiramisu": "-6 1 245 1 246 1 395 1/1 1/{{ModId}}_Tiramisu/saloon"
       }
     }
   ]

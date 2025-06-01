@@ -8,7 +8,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "changes/crops.json, changes/cooking.json"
+      "FromFile": "changes/crops.json, changes/cooking.json, changes/shops.json"
     }
   ]
 }
